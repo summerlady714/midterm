@@ -1,0 +1,23 @@
+/* Styles for Mobile Site */
+body {background-color: #F0EA67;}
+/* Header & Hero */
+
+/* Projects */
+
+/* Reviews */
+
+/* Footer */
+
+
+/* Media state for Desktop site */
+@media (min-width: 1000px) {
+
+    /* Header & Hero */
+
+    /* Projects */
+
+    /* Reviews */
+
+    /* Footer */
+
+}
