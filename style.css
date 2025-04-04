@@ -1,23 +1,80 @@
 /* Styles for Mobile Site */
-body {background-color: #F0EA67;}
+#header{
+    flex-direction: column;
+    align-items: center;
+    text-align:center;
+    display:flex;
+justify-content: center;
+align-items: center;
+font-size: 2rem;
+margin-left: 1rem
+}
+
+body {
+    background-color: #F0EA67;
+    display:flex;
+    text-align:center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container{
+    margin:0 auto;
+    width:90%;
+    max-width:1200px;
+}
+
 /* Header & Hero */
+h1 {
+    font-family:charm;
+    font-size:500%;
+}
+#hero{
+    align-items:center; 
+    text-wrap: center;
+    padding:30px;
+}
+#main{}
 
-/* Projects */
+h2{ 
+    font-family:charm;
+    font-size:300%;display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
+    /* Projects */
+#spiel{
+        font-family:"quicksand wght@400";
+            font-size:18em;
+            display: flex;
+            align-items: center;
+        }
+
+#projects ul li{font-family:kaushan;
+    font-size:150%;display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 /* Reviews */
+#reviews{ display:flex;
+        flex-direction:column;
+        align-items: center;
+    }
 
 /* Footer */
 
 
 /* Media state for Desktop site */
-@media (min-width: 1000px) {
+@media (min-width: 100%) {
 
     /* Header & Hero */
-
+#header {display:flex}
+#hero {display: inline;}
     /* Projects */
-
+#projects {display: flexbox}
     /* Reviews */
-
+#reviews{display:flexbox}
     /* Footer */
-
+#footer{display:flexbox}
 }
